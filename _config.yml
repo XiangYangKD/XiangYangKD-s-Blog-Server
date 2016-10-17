@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 科大向阳
 subtitle:
 description:
-author: John Doe
+author: 向阳
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://xiangyangkd.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -65,7 +65,9 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-new-vno
 
-# Deployment
+# Deployment：部署
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/XiangYangKD/XiangYangKD.github.io.git
+  branch: master
